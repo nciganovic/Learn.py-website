@@ -2,234 +2,229 @@
 <html>
 	<head>
 		<title>Learn.py</title>
+        
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
 		
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
 		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        
+        <link href="css/mdb.css" rel="stylesheet"> <!-- EDIT -->
 		
-		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/> 
+        
+        <link rel="stylesheet" type="text/css" href="css/media.css"/>
+        
+        <link href="https://fonts.googleapis.com/css?family=Sarabun&display=swap" rel="stylesheet">
 		
-		<meta name="viewport" content="width=device-width;initial-scale=1.0"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 		
+        <script src="js/wow.min.js"></script>
+        
+        <script>
+              new WOW().init();
+        </script>
 	</head>
 	<body class="bg-primary" data-spy='scroll' data-target="#Scroll">
-        <div class="container-fluid">
-            <div class="row">
-                <div class ="col-1 bg-primary" id="sidebar">
-                    <div class="fixed">
-                        <a class="text-decoration-none" href="index.html">
-                            <div class="row d-flex justify-content-center align-items-center menuBox flex-column dark-blue">
-                                <img src="img/python50.png" alt="logo"/>
-                                <p class="text-light"><strong>Learn.py</strong></p>
+        <div class="container-fluid margin-0 padding-0">
+            <!-- Navbar -->
+            <div class="fixed-top">
+                        <nav class="navbar navbar-expand-lg navbar-dark tempting-azure-gradient">
+                            <a class="navbar-brand" href="#"><img src="img/python50.png" alt="Pylogo"/></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse ml-5" id="navbarText">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item  m-2">
+                                        <a class="nav-link text-dark" href="index.html">Home<span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item active m-2">
+                                        <a class="nav-link text-dark" href="basics.html">Python Basics</a>
+                                    </li>
+                                    <li class="nav-item m-2">
+                                        <a class="nav-link text-dark" href="web.html">Web development</a>
+                                    </li>
+                                    <li class="nav-item m-2">
+                                        <a class="nav-link text-dark" href="machine.html">Machine learning</a>
+                                    </li>
+                                    <li class="nav-item m-2">
+                                        <a class="nav-link text-dark" href="aboutme.html">About me</a>
+                                    </li>
+                                </ul>
+                                <span class="navbar-text text-light font-15"><a href="#">Learn.py.com</a></span>
                             </div>
-                        </a>
-                        <a class="text-decoration-none" href="basics.html">
-                            <div class="row d-flex justify-content-center align-items-center menuBox flex-column light-blue">
-                                <img src="img/basic50.png" alt="logo"/>
-                                <p class="text-center text-light">Python basics</p>
-                            </div>
-                        </a>
-                        <a class="text-decoration-none" href="#">
-                            <div class="row d-flex justify-content-center align-items-center menuBox flex-column dark-blue ">
-                                <img src="img/web50.png" alt="logo"/>
-                                <p class="text-center text-light">Web development</p>
-                            </div>
-                        </a>
-                        <a class="text-decoration-none" href="#">
-                            <div class="row d-flex justify-content-center align-items-center menuBox flex-column light-blue">
-                                <img src="img/ml-logo50.png" alt="logo"/>
-                                <p class="text-center text-light">Machine learning</p>
-                            </div>
-                        </a>
-                        <a class="text-decoration-none" href="#">
-                            <div class="row d-flex justify-content-center align-items-center menuBox flex-column dark-blue">
-                                <i class="fa fa-user text-black font-30" aria-hidden="true"></i>
-                                <p class="text-center text-light">About me</p>
-                            </div>
-                        </a>
-                        <a class="text-decoration-none" href="#">
-                            <div class="row d-flex justify-content-center align-items-center menuBox flex-column light-blue">
-                                <i class="fa fa-phone text-black font-30" aria-hidden="true"></i>
-                                <p class="text-center text-light">Contact</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                        </nav>
+            </div>
             
-                <div class="col-11 padding-0">
-                        <!-- First page -->
-                        <div class="bg-img-basics fixed-height" id="First_Page">
-                            <div class="bg-opacity d-flex justify-content-center align-items-center flex-column">
-                                <div class="d-flex justify-content-center align-items-center flex-column">
-                                    <div class="d-flex justify-content-center align-items-center flex-column">
-                                        <h1 class="text-light border-bottom font-30 text-center">Python basics</h1>
-                                    
-                                        <p class="text-light m-5 text-center font-15">Pytohn basics will help you in understanding core functionalities of Python. Without them you wont be able to build any project.</p>
-                                    </div>
-                                    
-                                    <div>
-                                        <div>
-                                            <p><i class="fa fa-arrow-down font-30 text-light mt-5" aria-hidden="true"></i></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-1 float-right fixed-height scroll-spy d-flex justify-content-center align-items-center flex-column" id="Scroll">
-                                    <a class="nav-link active" href="#First_Page"></a>
-                                    <a class="nav-link" href="#Second_Page"></a>
-                                    <a class="nav-link" href="#Third_Page"></a>
-                                </div>
-                            </div> 
+            <!-- First page -->
+            <div class="bg-img-basics fixed-height">
+                <div class="bg-opacity d-flex justify-content-center align-items-center flex-column">
+                    <div class="">
+                        <div class="d-flex justify-content-center align-items-center flex-column">
+                            <h1 class="text-light border-bottom font-30 text-center animated fadeInUp">Python basics</h1>
+                        
+                            <p class="text-light m-5 text-center font-15 animated fadeInUp">Pytohn basics will help you in understanding core functionalities of Python. Without them you wont be able to build any project.</p>
                             
+                            <i class="fa fa-arrow-down font-30 text-light mx-auto animated bounce infinite m-5" aria-hidden="true"></i>
                         </div>
+                    </div>
+                </div>      
+            </div>
                     
-                        <!--Second page -->
-                        <div class="container-fluid fixed-height" id="Second_Page">
-                            <div class="d-flex flex-column align-items-center">
+            <!--Second page -->
+            <div class="container-fluid main-blue fixed-height">
+                <div class="d-flex flex-column align-items-center">
                                 
-                                <h2 class="m-5 font-30">Best courses about Python basics</h2>
+                    <h2 class="text-center m-5 font-30 text-light">Best courses about Python basics</h2>
                                 
-                                <!-- Card deck -->
-                                <div class="card-deck m-5">
-
-                                  <!-- Card -->
-                                  <div class="card mb-4 rounded-0">
-
-                                    <!--Card image-->
-                                    <div class="view overlay">
-                                      <img class="card-img-top" src="img/py-boot.jpg" alt="Card image cap">
-                                      <a href="#!">
-                                        <div class="mask rgba-white-slight"></div>
-                                      </a>
-                                    </div>
-
-                                    <!--Card content-->
-                                    <div class="card-body">
-
-                                      <!--Title-->
-                                      <h3 class="card-title">Pytohn 3 bootcamp</h3>
-                                      <!--Text-->
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                                      <button type="button" class="btn btn-light-blue btn-md">Visit course</button>
-
-                                    </div>
-
-                                  </div>
-                                  <!-- Card -->
-
-                                  <!-- Card -->
-                                  <div class="card mb-4 rounded-0">
-
-                                    <!--Card image-->
-                                    <div class="view overlay">
-                                      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" alt="Card image cap">
-                                      <a href="#!">
-                                        <div class="mask rgba-white-slight"></div>
-                                      </a>
-                                    </div>
-
-                                    <!--Card content-->
-                                    <div class="card-body">
-
-                                      <!--Title-->
-                                      <h4 class="card-title">Card title</h4>
-                                      <!--Text-->
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                                      <button type="button" class="btn btn-light-blue btn-md">Read more</button>
-
-                                    </div>
-
-                                  </div>
-                                  <!-- Card -->
-
-                                  <!-- Card -->
-                                  <div class="card mb-4 rounded-0">
-
-                                    <!--Card image-->
-                                    <div class="view overlay">
-                                      <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
-                                      <a href="#!">
-                                        <div class="mask rgba-white-slight"></div>
-                                      </a>
-                                    </div>
-
-                                    <!--Card content-->
-                                    <div class="card-body">
-
-                                      <!--Title-->
-                                      <h4 class="card-title">Card title</h4>
-                                      <!--Text-->
-                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                      <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                                      <button type="button" class="btn btn-light-blue btn-md">Read more</button>
-
-                                    </div>
-
-                                  </div>
-                                  <!-- Card -->
+                    <div class="card-deck m-5">
                         
-                                </div>
-                                <!-- Card deck -->
-                            </div>
-                        </div>
-                    
-                        <div class="fixed-height bg-warning" id="Third_Page">
-                            <div class="d-flex flex-column">
+                        <div class="card mb-4 rounded-more main-green wow fadeInUp slow">
+                            <div class="view zoom rounded-more-top">
+                                <img class="card-img-top rounded-more-top" src="img/py-basics-c-1.jpg" alt="Card image cap">
                                 
-                                <h2 class="m-5 font-30 text-center">Important to know...</h2>
-                                
-                                <div class="container">
-                                    <h3>First Step</h3>
-                                    <p class="m-3 p-3 border-left border-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id mollis nisi. In nunc ligula, suscipit et elementum at, ornare quis neque. In ut euismod velit. Nullam feugiat nunc non pharetra lacinia. Suspendisse condimentum ac neque in sollicitudin. Phasellus nisl turpis, pharetra at enim at, euismod suscipit ante. Quisque eget mollis ex. Cras quis feugiat augue. Praesent mattis, ipsum vitae sodales sollicitudin, leo leo fringilla nisl, quis tempor lacus elit eu purus. Aenean efficitur dui non risus rutrum, et pretium justo convallis. Proin sed posuere quam, ac vehicula mi.</p>
-                                    
-                                    <h3>Second step</h3>
-                                    <p class="m-3 p-3 border-left border-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id mollis nisi. In nunc ligula, suscipit et elementum at, ornare quis neque. In ut euismod velit. Nullam feugiat nunc non pharetra lacinia. Suspendisse condimentum ac neque in sollicitudin. Phasellus nisl turpis, pharetra at enim at, euismod suscipit ante. Quisque eget mollis ex. Cras quis feugiat augue. Praesent mattis, ipsum vitae sodales sollicitudin, leo leo fringilla nisl, quis tempor lacus elit eu purus. Aenean efficitur dui non risus rutrum, et pretium justo convallis. Proin sed posuere quam, ac vehicula mi.</p>
-                                    
-                                    <h3>Third Step</h3>
-                                    <p class="m-3 p-3 border-left border-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id mollis nisi. In nunc ligula, suscipit et elementum at, ornare quis neque. In ut euismod velit. Nullam feugiat nunc non pharetra lacinia. Suspendisse condimentum ac neque in sollicitudin. Phasellus nisl turpis, pharetra at enim at, euismod suscipit ante. Quisque eget mollis ex. Cras quis feugiat augue. Praesent mattis, ipsum vitae sodales sollicitudin, leo leo fringilla nisl, quis tempor lacus elit eu purus. Aenean efficitur dui non risus rutrum, et pretium justo convallis. Proin sed posuere quam, ac vehicula mi.</p>
-                                </div>
+                                <a href="https://www.udemy.com/complete-python-bootcamp/" target="_blank">
+                                    <div class="mask rounded-more-top"></div>
+                                </a>
                             </div>
+                            <div class="card-body">
+                                <h3 class="card-title font-20 font-weight-bold">Go from zero to hero in Python 3</h3>
+                                <p class="card-text font-15">Learn Python like a Professional! Start from the basics and go all the way to creating your own applications and games!</p>
+                                <a class="btn btn-md main-blue rounded-pill text-light" href="https://www.udemy.com/complete-python-bootcamp/" target="_blank">Visit course</a>
+                            </div>
+
                         </div>
-                        <footer class="page-footer font-small bg-secondary">
+                          
+                        <div class="card mb-4 rounded-more main-green wow fadeInUp slow">
+                            <div class="view zoom rounded-more-top">
+                                <img class="card-img-top rounded-more-top" src="img/py-basics-c-2.jpg" alt="Card image cap">
+                                <a href="https://www.udemy.com/the-python-mega-course/" target="_blank">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title font-20 font-weight-bold">The Python Mega Course</h3>
+                                <p class="card-text font-15">Start Python from the basics and learn how to create 10 amazing and professional Python programs used in the real world!</p>
+                                <a class="btn btn-md main-blue rounded-pill text-light" href="https://www.udemy.com/the-python-mega-course/" target="_blank">Visit course</a>
+                            </div>
+
+                        </div>
+                       <div class="card mb-4 rounded-more main-green wow fadeInUp slow">
+                            <div class="view zoom rounded-more-top">
+                                <img class="card-img-top rounded-more-top" src="img/py-basics-c-3.jpg" alt="Card image cap">
+                                <a href="https://www.udemy.com/automate/" target="_blank">
+                                    <div class="mask rgba-white-slight"></div>
+                                </a>
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title font-20 font-weight-bold">Automate the Boring Stuff with Python</h3>
+                                <p class="card-text font-15">A practical programming course for office workers, academics, and administrators who want to improve their productivity.</p>
+                                <a class="btn btn-md main-blue rounded-pill text-light" href="https://www.udemy.com/automate/" target="_blank">Visit course</a>
+                            </div>
+
+                        </div>
                         
-                              <div class="container">
-
-                                <div class="row">
-
-                                  <div class="col-12 py-3 ">
-                                    <div class="mb-3 mt-3 d-flex justify-content-center align-items-center">
-
-                                      <div class="margin-lr">
-                                        <i class="fa fa-facebook-official font-20" aria-hidden="true"></i>
-                                      </div>
-
-                                      <div class="margin-lr">
-                                        <i class="fa fa-twitter-square font-20" aria-hidden="true"></i>
-                                      </div>
-
-                                      <div class="margin-lr">
-                                        <i class="fa fa-github font-20" aria-hidden="true"></i>
-                                      </div>
-
-                                      <div class="margin-lr">
-                                        <i class="fa fa-linkedin-square font-20" aria-hidden="true"></i>
-                                      </div>
-                                    </div>
-                                  </div>
-
-                                  </div>
-
-                              </div>
-
-                              <div class="footer-copyright text-center py-3">
-                                  <p>&copy; 2019 Copyright: Nikola Ciganović</p>
-                              </div>
-             
-                    </footer>
+                    </div>
+                                
+                </div>
+            </div>
+            <div class="container-fluid main-mid">
+                <h2 class="text-center font-30 text-dark p-3">Our instructors:</h2>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-8 col-xs-10 m-3 main-green rounded-more mb-5 wow fadeInUp slow">
+                        <div class="row">
+                            <img class="d-block mx-auto rounded-circle m-3 w-50" style="width: 100%; height: auto;" src="img/p-1.jpg" alt="p1"/>
+                        </div>
+                        <div>
+                            <p class="text-center font-20 border-bottom border-dark text-dark font-weight-bold">Jose Marcial</p>
+                            <p class="text-dark text-center">Jose Marcial Portilla has a BS and MS in Mechanical Engineering from Santa Clara University and years of experience as a professional instructor and trainer for Data Science and programming. He has publications and patents in various fields such as microfluidics, materials science, and data science technologies.</p>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-8 col-xs-10 m-3 main-green rounded-more mb-5 wow fadeInUp slow">
+                        <div class="row">
+                            <img class="d-block mx-auto rounded-circle m-3 w-50" style="width: 100%; height: auto;" src="img/p-2.jpg" alt="p2"/>
+                        </div>
+                        <div>
+                            <p class="text-center font-20 border-bottom border-dark text-dark font-weight-bold">Ardit Sulce</p>
+                            <p class="text-dark text-center">Ardit received his master's degree in Geospatial Technologies from the Institute of Geoinformatics at the University of Muenster, Germany. He also holds a bachelor's degree in Geodetic Engineering. Ardit offers his expertise in Python development on Upwork where he has worked with companies such as the Swiss in-Terra, Center for Conservation Geography, and Rapid Intelligence.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-8 col-xs-10 m-3 main-green rounded-more mb-5 wow fadeInUp slow">
+                        <div class="row">
+                            <img class="d-block mx-auto rounded-circle m-3 w-50" style="width: 100%; height: auto;" src="img/p-3.jpg" alt="p3"/>
+                        </div>
+                        <div>
+                            <p class="text-center font-20 border-bottom border-dark text-dark font-weight-bold">Al Sweigart</p>
+                            <p class="text-dark text-center">Al Sweigart is a software developer in San Francisco. He has written four Python programming books, spoken at Python conferences, and has taught both kids and adults how to program. Python is his favorite programming language, and he is the developer of several open source modules for it.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+             <!-- Third page -->       
+            <div class="main-green">
+                <div class="d-flex flex-column">
+                                
+                    <h2 class="m-5 font-30 text-center">More about...</h2>
+                                
+                    <div class="container mb-5">
+                        
+                        <h3 class="font-20 font-weight-bold">Go from zero to hero in Python 3</h3>
+                        <p class="m-3 p-3 border-left border-dark font-15">This is the most comprehensive, yet straight-forward, course for the Python programming language on Udemy! Whether you have never programmed before, already know basic syntax, or want to learn about the advanced features of Python, this course is for you! In this course we will teach you Python 3. (Note, we also provide older Python 2 notes in case you need them). With over 100 lectures and more than 20 hours of video this comprehensive course leaves no stone unturned! This course includes quizzes, tests, and homework assignments as well as 3 major projects to create a Python project portfolio!</p>
+                  
+                           
+                        <h3 class="font-20 font-weight-bold wow ">The Python Mega Course</h3>
+                        <p class="m-3 p-3 border-left border-dark font-15 ">The Python Mega Course is one of the top online Python courses with over 100,000 enrolled students and is targeted toward people with little or no previous programming experience. The course follows a modern-teaching approach where students learn by doing. You will start from scratch and master Python by building 10 real-world applications in Python 3, guided and supported by the course instructor. The course has 24 sections containing videos, code examples, quizzes, exercises, projects, and other bonus materials. If you don't know anything about Python, do not worry! In the first two sections, you will learn Python basics such as functions, loops, conditionals, strings, and lists. If you already know the basics, then those first two sections can serve as a refresher. The other 22 sections  focus entirely on building real-world applications using Python.</p>
+                 
+                  
+                        <h3 class="font-20 font-weight-bold">Automate the Boring Stuff with Python</h3>
+                        <p class="m-3 p-3 border-left border-dark font-15">If you're an office worker, student, administrator, or just want to become more productive with your computer, programming will allow you write code that can automate tedious tasks. This course follows the popular (and free!) book, Automate the Boring Stuff with Python. Automate the Boring Stuff with Python was written for people who want to get up to speed writing small programs that do practical tasks as soon as possible. You don't need to know sorting algorithms or object-oriented programming, so this course skips all the computer science and concentrates on writing code that gets stuff done.</p>   
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <footer class="page-footer font-small main-blue">
+                        
+                      <div class="container">
+
+                        <div class="row">
+
+                          <div class="col-12 py-3 ">
+                            <div class="mb-3 mt-3 d-flex justify-content-center align-items-center">
+
+                              <div class="margin-lr">
+                                <a href="https://www.facebook.com/nikola.ciganovic.90" target="_blank"><i class="fa fa-facebook-official font-25" aria-hidden="true"></i></a>
+                              </div>
+                          
+                              <div class="margin-lr">
+                                <a href="https://twitter.com/NikolaCiganovi2?lang=en" target="_blank"><i class="fa fa-twitter-square font-25" aria-hidden="true"></i></a>
+                              </div>
+                             
+                              <div class="margin-lr">
+                                <a href="https://github.com/nciganovic" target="_blank"><i class="fa fa-github font-25" aria-hidden="true"></i></a>
+                              </div>
+                        
+                              <div class="margin-lr">
+                                <a href="https://www.linkedin.com/in/nikola-ciganovi%C4%87-938255167/" target="_blank"><i class="fa fa-linkedin-square font-25" aria-hidden="true"></i></a>
+                              </div>
+                            </div>
+                          </div>
+
+                          </div>
+
+                      </div>
+                 
+                      <div class="footer-copyright text-center py-3">
+                          <p>&copy; 2019 Copyright: Nikola Ciganović</p>
+                      </div>
+             
+                    </footer>
+        </div>
 	</body>
 </html>
