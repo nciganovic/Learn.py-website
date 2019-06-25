@@ -2,8 +2,12 @@
 <html>
 	<head>
 		<title>Learn.py</title>
+        
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        
+        <link href="https://fonts.googleapis.com/css?family=Sarabun&display=swap" rel="stylesheet">
 		
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
 		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
         
@@ -11,65 +15,124 @@
 		
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
         
-        <link href="https://fonts.googleapis.com/css?family=Sarabun&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/media.css"/>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 		
-		<meta name="viewport" content="width=device-width;initial-scale=1.0"/>
-		
+        <script src="js/wow.min.js"></script>
+        
+        <script>
+              new WOW().init();
+        </script>
+        
 	</head>
 	<body class="bg-primary">
         <div class="container-fluid margin-0 padding-0">
                     <div class="fixed-top">
-                        <nav class="navbar navbar-expand-lg navbar-dark tempting-azure-gradient">
-                          <a class="navbar-brand" href="#"><img src="img/python50.png" alt="Pylogo"/></a>
-                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-                            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse ml-5" id="navbarText">
-                            <ul class="navbar-nav mr-auto">
-                              <li class="nav-item m-2 border-bottom border-dark">
-                                <a class="nav-link text-dark" href="#">Home</a>
-                              </li>
-                              <li class="nav-item m-2">
-                                <a class="nav-link text-dark" href="#">Python Basics</a>
-                              </li>
-                              <li class="nav-item m-2">
-                                <a class="nav-link text-dark" href="#">Web development</a>
-                              </li>
-                              <li class="nav-item m-2">
-                                <a class="nav-link text-dark" href="#">Machine learning</a>
-                              </li>
-                              <li class="nav-item m-2">
-                                <a class="nav-link text-dark" href="#">About me</a>
-                              </li>
-                            </ul>
-                            <span class="navbar-text text-light font-15">
-                              Learn.py.com
-                            </span>
-                          </div>
+                        <nav class="navbar navbar-expand-lg navbar-dark tempting-azure-gradient w-100">
+                            <a class="navbar-brand" href="#"><img src="img/python50.png" alt="Pylogo"/></a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse ml-5" id="navbarText">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active m-2">
+                                        <a class="nav-link text-dark" href="index.html">Home<span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item m-2">
+                                        <a class="nav-link text-dark" href="basics.html">Python Basics</a>
+                                    </li>
+                                    <li class="nav-item m-2">
+                                        <a class="nav-link text-dark" href="web.html">Web development</a>
+                                    </li>
+                                    <li class="nav-item m-2">
+                                        <a class="nav-link text-dark" href="machine.html">Machine learning</a>
+                                    </li>
+                                    <li class="nav-item m-2">
+                                        <a class="nav-link text-dark" href="aboutme.html">About me</a>
+                                    </li>
+                                </ul>
+                                <span class="navbar-text text-light font-15"><a href="#">Learn.py.com</a></span>
+                            </div>
                         </nav>
                     </div>
                     <!-- First page -->
-                    <div class="bg-img fixed-height">
-                        <div class="bg-opacity d-flex justify-content-center align-items-center flex-column">
-                            <h1 class="text-light border-bottom font-30 border-bottom ">Learn Python efficiently</h1>
-                            <p class="text-light m-5 text-center w-75 font-15">Everything in one place. Learn basics of python, web development and machine learning from the best courses on web. We will recommend perfect course for you.</p>
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active bg-img fixed-height">
+                          <div class="bg-opacity d-flex justify-content-center align-items-center flex-column">
+                            <h1 class="text-light border-bottom font-30 border-bottom animated fadeInUp">Learn Python efficiently</h1>
+                            <p class="text-light m-5 text-center w-75 font-15 animated fadeInUp">Join the big and awesome comunnity of people who are ready to became Python experts!</p>
                             <div class="row d-flex justify-content-center align-items-center row">
-                                <div class="border p-3 mr-2">
-                                     <p class="text-light font-15"><a class="text-decoration-none text-light" href="#">Teach me Python!</a></p>
-                                </div>
-                             
-                                <div class="border p-3 ml-5">
-                                    <p class="text-light font-15"><a class="text-decoration-none text-light" href="#">Why Python?</a></p>
-                                </div>
+                    
+                                <p class="text-light font-15 border p-3 mr-2 hoverable hip animated fadeInLeft"><a class="text-decoration-none text-light" href="#">Teach me Python!</a></p>
+                            
+                                <p class="text-light font-15 border p-3 ml-5 hoverable hip animated fadeInRight"><a class="text-decoration-none text-light" href="#">Why Python?</a></p>
+                                
                             </div>
-                        </div>  
+                          </div> 
+                        </div>
+                        <div class="carousel-item bg-img-1 fixed-height">
+                          <div class="bg-opacity d-flex justify-content-center align-items-center flex-column">
+                            <p class="text-light border-bottom font-30 border-bottom wow fadeInUp delay-1s">Everything in one place</p>
+                            <p class="text-light m-5 text-center w-75 font-15 wow fadeInUp delay-1s">Learn basics of python, web development and machine learning from the best courses on web. We will recommend perfect course for you.</p>
+                            
+                            <button type="button" class="text-light font-15 p-3 bg-transparent wow fadeInUp delay-1s" data-toggle="modal" data-target="#basicExampleModal">Join mailing list</button>
+                            
+                             <!-- Modal -->
+                            <div class="modal fade" id="basicExampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                              aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Join our Mailing list</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                  </div>
+                                  <div class="modal-body">
+                                        Get notified via email when we release new course.
+                                        <form action="" method="get">
+                                          <div class="form-group">
+                                            <label for="exampleInputEmail1">Email address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                          </div>
+                                        </form>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Send</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>  
+                              
+                        </div>
+                        </div>
+                        <div class="carousel-item bg-img-2 fixed-height">
+                          <div class="bg-opacity d-flex justify-content-center align-items-center flex-column">
+                            <p class="text-light border-bottom font-30 border-bottom wow fadeInUp delay-1s">Learn from experts</p>
+                            <p class="text-light m-5 text-center w-75 font-15 wow fadeInUp delay-1s">We currently have nine experts who are ready to teach everything you need in Python.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>
+                      </a>
                     </div>
                     
-                    <div class="container-fluid fixed-height main-blue">
+                    <div class="container-fluid main-blue">
                         <!-- Second page -->
                         <div class="d-flex flex-column">
-                            <h2 class="text-center font-30 m-5 text-light ">How can we help you to learn Python?</h2>
+                            <h2 class="text-center font-30 m-5 text-light">How can we help you to learn Python?</h2>
                             
                             <div class="w-100 p-3">
                                 <p class="text-center  font-15 text-light">Learn.py can help you find best courses for python. You can pick whether you want paid or free courses.</p>
@@ -78,49 +141,49 @@
                             
                             
                             <div class="row d-flex justify-content-center m-5">
-                                <div class="col-3 m-3 rounded-more border border-dark p-3 main-green">
+                                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 m-3 rounded-more border border-dark p-3 main-green wow fadeInUp slow">
                                      <img class="d-block mx-auto" src="img/basic100.png"/>
-                                     <p class="text-center font-weight-bold m-2">Python Basics</p>
-                                     <p class="text-center ">Learn basics of python from best courses on the web. Basics are groundwork of your knowledge in Python so if you are new or you fell like you don't know everything this would be best place for you.</p>
+                                     <p class="text-center font-weight-bold m-2 font-20">Python Basics</p>
+                                     <p class="text-center font-15">Learn basics of python from best courses on the web. Basics are groundwork of your knowledge in Python so if you are new or you fell like you don't know everything this would be best place for you.</p>
                                 </div>
-                                <div class="col-3 m-3 rounded-more border border-dark p-3 main-green">
+                                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 m-3 rounded-more border border-dark p-3 main-green wow fadeInUp slow">
                                      <img class="d-block mx-auto" src="img/web100.png"/>
-                                     <p class="text-center font-weight-bold m-2">Web development</p>
-                                     <p class="text-center">Learn basics of python from best courses on the web. Basics are groundwork of your knowledge in Python so if you are new or you fell like you don't know everything this would be best place for you.</p>
+                                     <p class="text-center font-weight-bold m-2 font-20">Web development</p>
+                                     <p class="text-center font-15">Learn basics of python from best courses on the web. Basics are groundwork of your knowledge in Python so if you are new or you fell like you don't know everything this would be best place for you.</p>
                                 </div>
-                                <div class="col-3 m-3 rounded-more border border-dark p-3 main-green">
+                                <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-xs-12 m-3 rounded-more border border-dark p-3 main-green wow fadeInUp slow">
                                     <img class="d-block mx-auto" src="img/ml-logo100.png"/>
-                                    <p class="text-center font-weight-bold m-2">Machine learning</p>
-                                    <p class="text-center">Learn basics of python from best courses on the web. Basics are groundwork of your knowledge in Python so if you are new or you fell like you don't know everything this would be best place for you.</p>
+                                    <p class="text-center font-weight-bold m-2 font-20">Machine learning</p>
+                                    <p class="text-center font-15">Learn basics of python from best courses on the web. Basics are groundwork of your knowledge in Python so if you are new or you fell like you don't know everything this would be best place for you.</p>
                                 </div>
                             </div>
                             
-                            <div>
-                                <p class="text-center font-italic font-15 text-light">"This is best website i ever visited. I learnd Python i 3 weeks, this is so easy". Michel Johnson may 2019</p>
-                                <p class="text-center font-italic font-15 text-light">"This is best website i ever visited. I learnd Python i 3 weeks, this is so easy". Michel Johnson may 2019</p>
-                                <p class="text-center font-italic font-15 text-light">"This is best website i ever visited. I learnd Python i 3 weeks, this is so easy". Michel Johnson may 2019</p>
+                            <div class="p-5 wow fadeIn">
+                                <p class="text-center  text-light font-15"><i>"I have started and stopped programming many times before up until I bought this course and his book."</i> Michel Johnson july 2019</p>
+                                <p class="text-center  text-light font-15"><i>"Programs to build are interesting, some of them even excellent. All explained with details."</i> John Peterson september 2019</p>
+                                <p class="text-center  text-light font-15"><i>"It was absolutely an awsome experience going through this journey of python with Learn.py."</i> Micheal Cole Young  december 2018</p>
                             </div>
                             
                         </div>  
                     </div>
                     <!--Third page -->
-                    <div class="container-fluid fixed-height main-green">
+                    <div class="container-fluid main-green">
                         <div class="d-flex flex-column align-items-center">
                             <h2 class="text-center font-30 m-5">Why Python?</h2>   
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-9">
+                                    <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
                                         <p class="font-20"><i class="fa fa-minus" aria-hidden="true"></i> Simple and easy for begginers.<i class="fa fa-check" aria-hidden="true"></i></p>
                                         <p class="font-20"><i class="fa fa-minus" aria-hidden="true"></i> Plenty of freelance job oppotunities.<i class="fa fa-check" aria-hidden="true"></i></p>
                                         <p class="font-20"><i class="fa fa-minus" aria-hidden="true"></i> Able to acomplish wide variety of tasks.<i class="fa fa-check" aria-hidden="true"></i></p>
                                         <p class="font-20"><i class="fa fa-minus" aria-hidden="true"></i> Highest paying programming language of 2019.<i class="fa fa-check" aria-hidden="true"></i></p>
                                         <p class="font-20"><i class="fa fa-minus" aria-hidden="true"></i> Big and supportive community.<i class="fa fa-check" aria-hidden="true"></i></p>
                                     </div>
-                                    <div class="col-3">
+                                    <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 dip-none">
                                         <img class="d-block mx-auto align-middle mt-5" src="img/python200.png" alt="Python logo"/>
                                     </div>
-                                    <div class="col-12 mt-5">
-                                        <img class="d-block mx-auto" src="img/why-py.png"/>
+                                    <div class="mt-5 mb-5">
+                                        <img class="d-block mx-auto" style="width: 100%; height: auto;" src="img/why-py.png"/>
                                     </div>
                                 </div>
                             </div>
@@ -137,19 +200,19 @@
                             <div class="mb-3 mt-3 d-flex justify-content-center align-items-center">
 
                               <div class="margin-lr">
-                                <i class="fa fa-facebook-official font-25" aria-hidden="true"></i>
+                                <a href="https://www.facebook.com/nikola.ciganovic.90" target="_blank"><i class="fa fa-facebook-official font-25" aria-hidden="true"></i></a>
                               </div>
                           
                               <div class="margin-lr">
-                                <i class="fa fa-twitter-square font-25" aria-hidden="true"></i>
+                                <a href="https://twitter.com/NikolaCiganovi2?lang=en" target="_blank"><i class="fa fa-twitter-square font-25" aria-hidden="true"></i></a>
                               </div>
                              
                               <div class="margin-lr">
-                                <i class="fa fa-github font-25" aria-hidden="true"></i>
+                                <a href="https://github.com/nciganovic" target="_blank"><i class="fa fa-github font-25" aria-hidden="true"></i></a>
                               </div>
                         
                               <div class="margin-lr">
-                                <i class="fa fa-linkedin-square font-25" aria-hidden="true"></i>
+                                <a href="https://www.linkedin.com/in/nikola-ciganovi%C4%87-938255167/" target="_blank"><i class="fa fa-linkedin-square font-25" aria-hidden="true"></i></a>
                               </div>
                             </div>
                           </div>

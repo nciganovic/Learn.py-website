@@ -8347,7 +8347,7 @@ body.scrollable {
   background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); }
 
 .tempting-azure-gradient {
-  background-image: -webkit-linear-gradient(330deg, #8BD8BD 0%, #243665 100%);
+  background-image: -webkit-linear-gradient(330deg, #8BD8BD 0%, #243665 100%); /* change */
   background-image: -o-linear-gradient(330deg, #8BD8BD 0%, #243665 100%);
   background-image: linear-gradient(120deg, #8BD8BD 0%, #243665 100%); }
 

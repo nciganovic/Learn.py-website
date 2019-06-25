@@ -1,0 +1,161 @@
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { 
+    
+    .bg-img{
+        background-image: url("../img/bg-1200/bg-img-1200.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+    .bg-img-1{
+        background-image: url("../img/bg-1200/bg-img-1-1200.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+    .bg-img-2{
+        background-image: url("../img/bg-1200/bg-img-2-1200.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+    .bg-img-basics{
+        background-image: url("../img/bg-1200/bg-basics-1200.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+    .bg-img-web{
+        background-image: url("../img/bg-1200/bg-web-1200.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+    .bg-img-ml{
+        background-image: url("../img/bg-1200/bg-ml-1200.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+    .bg-me{
+        background-image: url("../img/bg-1200/bg-me-1-1200.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+
+}    
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { 
+
+    .font-30{
+        font-size: 2.5em; 
+    }
+    .font-15{
+        font-size: 1em;
+    }
+    .font-25{
+        font-size: 2em; 
+    }
+    .font-20{
+        font-size: 1.5em; 
+    }
+    .margin-top-big{
+        margin-top: 50%; 
+    }
+    
+    .dip-none{
+        display: none; 
+    }
+
+}
+
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+    
+    .font-30{
+        font-size: 1.5em; 
+    }
+    .font-15{
+        font-size: 1em;
+    }
+    .font-25{
+        font-size: 2em; 
+    }
+    .font-20{
+        font-size: 1.2em; 
+    }
+    .margin-top-big{
+        margin-top: 65%; 
+    }
+    
+    .bg-img{
+        background-image: url("../img/bg-768/bg-img-768.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+    .bg-img-1{
+        background-image: url("../img/bg-768/bg-img-1-768.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+    .bg-img-2{
+        background-image: url("../img/bg-768/bg-img-2-768.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+    .bg-img-basics{
+        background-image: url("../img/bg-768/bg-basics-768.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+    .bg-img-web{
+        background-image: url("../img/bg-768/bg-web-768.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+    .bg-img-ml{
+        background-image: url("../img/bg-768/bg-ml-768.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+    .bg-me{
+        background-image: url("../img/bg-768/bg-me-1-768.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-position: center; 
+    }
+}
+    
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { 
+    .font-30{
+        font-size: 1.5em; 
+    }
+    .font-15{
+        font-size: 0.8em;
+    }
+    .font-25{
+        font-size: 2em; 
+    }
+    .font-20{
+        font-size: 1em; 
+    }
+    
+    .m-5 {
+        margin: 1.5rem !important;
+    }
+    .margin-top-big{
+        margin-top: 80%; 
+    }
+}
+
